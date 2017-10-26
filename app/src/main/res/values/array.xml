@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>ALL</item>
+        <item>World News</item>
+        <item>Politics</item>
+        <item>Business</item>
+        <item>Finance</item>
+        <item>Science</item>
+        <item>Sports</item>
+        <item>Education</item>
+        <item>Fashion</item>
+        <item>Environment</item>
+    </string-array>
+
+    <string-array name="category_values">
+        <item>all</item>
+        <item>world</item>
+        <item>politics</item>
+        <item>business</item>
+        <item>money</item>
+        <item>science</item>
+        <item>sport</item>
+        <item>education</item>
+        <item>fashion</item>
+        <item>environment</item>
+    </string-array>
+</resources>

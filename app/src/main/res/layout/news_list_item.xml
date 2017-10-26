@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <ImageView
+        android:id="@+id/article_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/author_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="10"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/publish_date_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="10"
+        android:layout_margin="12dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/article_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="10"
+        android:layout_above="@id/publish_date_text_view"
+        android:layout_margin="12dp"
+        android:gravity="start"
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/category_text_view"
+        android:layout_width="wrap_content"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="10"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>

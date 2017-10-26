@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/preferences_title">
+
+    <ListPreference
+        android:entries="@array/category_array"
+        android:entryValues="@array/category_values"
+        android:key="@string/category_key"
+        android:summary="@string/pick_a_category"
+        android:title="@string/categories_title" />
+
+    <EditTextPreference
+        android:inputType="text"
+        android:key="@string/specific_words_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_key_words_label" />
+
+</PreferenceScreen>
